@@ -25,7 +25,8 @@ The dataset contains 194673 rows, each of them reperents a collision sample. Als
   - removing NULL or NaN values
   - performing standardization (if it is needed) to bring the features on the same scale
   - converting categorical variables to numerical variables
-  - feature selection, removing non-relevant columns to the prediction task, avoiding multicollinearity 
+  - feature selection, removing non-relevant columns to the prediction task, avoiding multicollinearity
+  - balancing the data (different accident severity types have different number of samples in the dataset)
  
  # Methodology:
  
