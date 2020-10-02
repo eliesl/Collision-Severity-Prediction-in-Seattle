@@ -8,8 +8,8 @@ The accident severity varies based on a wide range of factors, including weather
 
 City of Seattle has released an open source dataset containing all types of collision since 2014 to present. This dataset is updated weekly.
 
-The dataset contains 194673 rows, each of them reperents a collision sample. Also, it contains 38 columns:
-  - 37 features (independent variables), and 
+The dataset contains 221738 rows, each of them reperents a collision sample. Also, it contains 40 columns:
+  - 39 features (independent variables), and 
   - "SEVERITYCODE" as the dependent variable which is going to be predicted based on the provided features.
   
  In this dataset, the accident severity ("SEVERITYCODE") is divided to 5 categories:
@@ -22,7 +22,7 @@ The dataset contains 194673 rows, each of them reperents a collision sample. Als
  # Data pre-processing:
  
  The following actions have been performed to preprocess the data before feeding it to the models:
-  - removing NULL or NaN values
+  - removing NULL or NaN values if it is needed
   - performing standardization (if it is needed) to bring the features on the same scale
   - converting categorical variables to numerical variables
   - feature selection, removing non-relevant columns to the prediction task, avoiding multicollinearity
@@ -30,7 +30,7 @@ The dataset contains 194673 rows, each of them reperents a collision sample. Als
  
  # Methodology:
  
- To predict accident severity using Saettle collisions data, following machine learning algorithms have been employed to classify the acident severity as one of 5 existing categories:
+To predict accident severity using Saettle collisions data, following machine learning algorithms have been employed to classify the acident severity as one of 5 existing categories:
   - K-Nearest Neighbors (KNN)
   - Decision Tree
   - Naive Bayes
