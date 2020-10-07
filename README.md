@@ -48,5 +48,11 @@ To predict accident severity using Saettle collisions data, following machine le
  
  In the following, the result of meachine learning algorithms and some of the features are visualized:
  
-  
+ <img src="Images/Results.png">
+ <img src="Images/Map.png">
+ <img src="Images/Year.png">
+ <img src="Images/Month.png">
+ <img src="Images/Day.png">
+ <img src="Images/DayTime.png">
+ <img src="Images/Speeding.png">
  
