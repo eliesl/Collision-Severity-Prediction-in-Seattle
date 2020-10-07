@@ -3,10 +3,14 @@
 
 In this repository, machine learning algorithms have been developed to predict accident severity using Seattle collisions data. 
 The accident severity varies based on a wide range of factors, including weather conditions, light conditions, speeding, etc. Analysis of collisions data enables us to determine the severity of road accidents under different conditions. Therefore, restrict regulations or warning systems can be designed to reduce road traffic injuries and fatalities under high-risk circumstances.  
-This repository include:
-Data_Understanding.ipynb : Describing the columns in the dataset
-Data_Visualization.ipynb : Visualizing different features affecting the collision severity
-Predictive_Models.ipynb : Fitting machine learning algorithms to the dataset to predict the collision severity
+This repository includes:
+
+Data_Understanding.ipynb : Describing the columns in the dataset.
+
+Data_Visualization.ipynb : Visualizing different features affecting the collision severity.
+
+Predictive_Models.ipynb : Fitting machine learning algorithms to the dataset to predict the collision severity.
+
 # Data description:
 
 City of Seattle has released an open source dataset containing all types of collision since 2014 to present. This dataset is updated weekly.
@@ -40,6 +44,9 @@ To predict accident severity using Saettle collisions data, following machine le
   - Random Forest
   - Logistic Regression
  
+ # Results:
+ 
+ In the following, the result of meachine learning algorithms and some of the features are visualized:
  
   
  
