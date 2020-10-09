@@ -15,7 +15,7 @@ Predictive_Models.ipynb : Fitting machine learning algorithms to the dataset to 
 
 City of Seattle has released an open source dataset containing all types of collision since 2014 to present. This dataset is updated weekly.
 
-The dataset contains 221738 rows, each of them reperents a collision sample. Also, it contains 40 columns:
+The dataset contains 221738 rows, each of them reperesents a collision sample. Also, it contains 40 columns:
   - 39 features (independent variables), and 
   - "SEVERITYCODE" as the dependent variable which is going to be predicted based on the provided features.
   
@@ -37,7 +37,7 @@ The dataset contains 221738 rows, each of them reperents a collision sample. Als
  
  # Methodology:
  
-To predict accident severity using Saettle collisions data, following machine learning algorithms have been employed to classify the acident severity as one of 5 existing categories:
+To predict accident severity using Saettle collisions data, following machine learning algorithms have been employed to classify the accident severity as one of 5 existing categories:
   - K-Nearest Neighbors (KNN)
   - Decision Tree
   - Naive Bayes
