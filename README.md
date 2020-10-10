@@ -15,7 +15,7 @@ Predictive_Models.ipynb : Fitting machine learning algorithms to the dataset to 
 
 City of Seattle has released an open source dataset containing all types of collision since 2014 to present. This dataset is updated weekly.
 
-The dataset contains 221738 rows, each of them reperesents a collision sample. Also, it contains 40 columns:
+The dataset contains 221738 rows, each of them represents a collision sample. Also, it contains 40 columns:
   - 39 features (independent variables), and 
   - "SEVERITYCODE" as the dependent variable which is going to be predicted based on the provided features.
   
