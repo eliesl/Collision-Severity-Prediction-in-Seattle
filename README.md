@@ -20,11 +20,11 @@ The dataset contains 221738 rows, each of them represents a collision sample. Al
   - "SEVERITYCODE" as the dependent variable which is going to be predicted based on the provided features.
   
  In this dataset, the accident severity ("SEVERITYCODE") is divided to 5 categories:
-  **- 0: Unknown
+  - 0: Unknown
   - 1: Property Damage Only Collision
   - 2: Injury Collision	
   - 2b: Serious Injury Collision	
-  - 3: Fatality Collision**
+  - 3: Fatality Collision
   
  # Data pre-processing:
  
